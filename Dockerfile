@@ -15,6 +15,9 @@ ARG NUXT_PUBLIC_DISABLE_VERSION_CHECK
 ARG NUXT_STORAGE_DRIVER
 
 ENV NODE_OPTIONS=${NODE_OPTIONS}
+ENV NUXT_CLOUDFLARE_ACCOUNT_ID=build-placeholder
+ENV NUXT_CLOUDFLARE_NAMESPACE_ID=build-placeholder
+ENV NUXT_CLOUDFLARE_API_TOKEN=build-placeholder
 
 # Prepare pnpm https://pnpm.io/installation#using-corepack
 # workaround for npm registry key change
